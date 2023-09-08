@@ -1,0 +1,161 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html{
+  /* height: 100%; */
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+body{
+  max-width: 1440px;
+  margin: 0 auto;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 25vh;
+ font-family: 'Lato', sans-serif;
+ background-color: #b3aaaa81;
+
+}
+
+.container{
+min-width: 50em;
+max-width: 100% ;
+  background-color: #fff;
+  padding: 1em 5em 5em 0em;
+display: flex;
+flex-direction: column;
+gap: 1em;
+margin-bottom: 5em;
+
+
+}
+
+.top-img {
+  max-width: 100%;
+ 
+ margin: 0 auto
+ 
+
+ 
+}
+
+.top-img img{
+max-width: 100%;
+}
+
+
+
+hr{
+
+
+  /* margin: 20px auto; */
+  color: #5b5b5b;
+  border: 1px solid #5b5b5b77;
+  max-width: 100%;
+  opacity: 1; 
+
+
+
+}
+
+p{
+  
+  font-weight: semi-bold;
+  font-size: 2em;
+  padding-left: 1em;
+ max-width: 100%;
+ color: rgba(0, 0, 0, 0.711);
+ margin-bottom: 1em;
+ /* text-align: center; */
+ 
+}
+
+.btn{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.down-img{
+  padding-left: 1em;
+  max-width: 100%;
+}
+
+.down-img img{
+  max-width: 30%;
+}
+
+a{
+  text-decoration: none;
+}
+button{
+  background-color: rgba(255, 70, 37, 0.808);
+  color: aliceblue;
+  padding: 1em;
+  text-align: center;
+  border: none;
+  padding: 1em;
+ font-size: 1em;
+ 
+}
+
+.btn button:hover{
+  background-color: rgba(250, 95, 67, 0.808);
+  font-weight: 700;
+}
+
+
+
+@media (max-width: 48em) {
+  /* Your CSS styles for tablets go here */
+
+  .container{
+    min-width: 0em;
+    max-width: 100% ;
+      background-color: #fff;
+      padding: 1em 5em 5em 0em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 5em;
+    
+    
+    }
+
+
+    p{
+  
+      font-weight: semi-bold;
+      font-size: 1em;
+      padding-left: 1em;
+     max-width: 100%;
+     color: rgba(0, 0, 0, 0.711);
+     margin-bottom: 1em;
+     text-align: center;
+     
+    }
+
+    .down-img img{
+      max-width: 50%;
+    }
+}
+
+/* Media query for mobile devices (portrait) */
+@media (max-width: 30em) {
+  /* Your CSS styles for mobile devices go here */
+
+
+  .container{
+ /* width: 300px ; */
+    /* max-width: 100%; */
+  }
+}
